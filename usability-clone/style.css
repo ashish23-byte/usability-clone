@@ -120,10 +120,9 @@ header {
   flex-direction: column;
   gap: 20px;
   justify-content: center;
+  align-items: start;
 }
-.header-left a{
-  width: 150;
-}
+
 .header-right img {
   width: 600px;
 }
@@ -143,18 +142,18 @@ header {
 .features-section {
   padding: 80px var(--padding-inline-section);
 }
-.section-header{
+.section-header {
   flex-direction: column;
   gap: 20px;
   align-items: center;
 }
-.feature-card{
+.feature-card {
   flex-direction: column;
   gap: 20px;
   max-width: 30%;
   align-items: center;
 }
-.features-area{
+.features-area {
   flex-wrap: wrap;
   background-image: url(./assets/asset\ 34.svg);
   background-repeat: no-repeat;
@@ -163,25 +162,87 @@ header {
   text-align: center;
   gap: 40px;
   margin-top: 20px;
-  
 }
-.feature-card img{
+.feature-card img {
   width: 60px;
 }
-.big-features-section{
- padding: 30px var(--padding-inline-section);
+.big-features-section {
+  padding: 30px var(--padding-inline-section);
 }
-.big-feature-container{
-gap: 30px;
+.big-feature-container {
+  gap: 30px;
 }
-.big-feature-container img{
- width: 100%;
+.big-feature-container img {
+  width: 100%;
 }
-.feature-desc{
+.feature-desc {
   flex-direction: column;
   align-items: start;
   align-content: center;
 }
+
+.example-area{
+    justify-content: space-between;
+    margin-block:30px;
+
+}
+
+.example-card{
+    flex-direction:column;
+    width: 23%;
+    background-color: black;
+    color: white;
+    min-height: 300px;
+    justify-content: end;
+    padding: 25px;
+    transition: 0.2s easee-out;
+}
+
+.example-card:hover{
+    box-shadow: 0 0 10px #888;
+}
+
+.example-card:nth-child(1){
+    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)),
+    url(./assets/asset\ 36.jpeg);
+    background-size: cover;
+}
+
+.example-card:nth-child(2){
+    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)),
+    url(./assets/asset\ 37.jpeg);
+    background-size: cover;
+}
+
+.example-card:nth-child(3){
+    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)),
+    url(./assets/asset\ 38.jpeg);
+    background-size: cover;
+}
+
+.example-card:nth-child(4){
+    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)),
+    url(./assets/asset\ 39.jpeg);
+    background-size: cover;
+}
+
+.cta-section{
+    background-color: #1d69a3;
+
+}
+
+.cta-container{
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    gap: 30px;
+}
+
+.cta-container p{
+    color: white;
+    margin-top: 30px;
+}
+
 .spacer{
-  min-height: 50vh;
+    min-height: 50vh;
 }
